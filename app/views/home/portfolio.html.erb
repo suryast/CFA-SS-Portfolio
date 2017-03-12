@@ -1,0 +1,199 @@
+<!-- top-->
+<div class="row box-top">
+    <div class="small-1 medium-1 large-1 show-for-small-only column">
+        <!-- global padding-->
+        <div id="target1"></div>
+    </div>
+
+    <div class="small-3 medium-4 large-5 column">
+        <!-- logo -->
+        <div class='logo'><img src="<%= asset_path ('logo.svg')%>"></div>
+        <!-- logo END -->
+        <div class="play-text-red show-for-medium-only">
+            <h1>THINK</h1>
+            <br>
+            <br>
+            <h1>ACT</h1>
+        </div>
+    </div>
+
+    <div class="small-2 medium-2 large-3 column">
+        <!-- text -->
+        <div class="play-text">
+            <div class="play-text-rotate-180">
+                <h1>P</h1>
+            </div>
+            <h1>LAY</h1>
+        </div>
+        <div class="play-text-reverse-180">
+            <div class="play-text-rotate-180-reverse-B">
+                <h1>B</h1>
+            </div>
+            <h1>LIU</h1>
+        </div>
+        <div class="play-text-rotate-180-reverse-D">
+            <h1>D</h1>
+        </div>
+        <span class="typed-script"></span>
+        <!-- text END-->
+    </div>
+
+    <div class="small-6 medium-5 large-3 column">
+        <!-- picture -->
+        <div id="circle-big">
+            <div id="circle-medium">
+                <div id="circle-small"><%= image_tag "profile.png" %></div>
+            </div>
+        </div>
+    </div>
+    <!-- picture END -->
+</div>
+
+<div class="row box-top">
+    <div class="small-1 medium-1 large-1 column">
+        <!-- padding-->
+        <div class="typed-script-mobile show-for-small-only" style="white-space:pre"></div>
+    </div>
+
+    <div class="small-6 medium-7 large-7 column">
+        <!-- box -->
+    </div>
+
+    <div class="small-1 medium-1 large-1 column"></div>
+
+    <div class="small-4 medium-3 large-3 column"></div>
+</div>
+<!-- top END-->
+
+<!-- about me-->
+<div class="row card-background-white">
+    <div class="small-12 columns bold small-centered">
+        <div class="header panel">
+            <div class="sign" id="target2">
+                <h1>ABOUT ME</h1>
+            </div>
+        </div>
+        <p>'Disruptor' with diverse interests ranging from building Australia–Indonesia business connection, tech startup and social entrepreneurship. Having initially satisfied my curious mind in biomedical research, I find resonating personal values in
+            entrepreneurship.</p>
+        <p>I am in my element when brainstorming fun solutions to tackle painful business problems or having stimulating conversation about any topic with like-minded individuals.</p>
+        <p>I am always keen to connect with new people – please let me know if I can help you with anything.</p>
+        <p>From early 2017, I'm acquiring new skills as a full-stack developer through Coder Factory Academy, Sydney.
+        </p>
+    </div>
+</div>
+<!-- about me END-->
+
+<!-- flip cards-->
+<div class="row card-background">
+    <div class="medium-4 columns">
+        <div class="f1_container">
+            <div class="f1_card" class="shadow">
+                <div class="profile-card">
+                    <img src="<%= asset_path ('business.svg')%>">
+                    <div class="profile-info face">
+                        <h4 class="subheader">Business</h4>
+                        <h5>Some of my ongoing and recent business projects. So many ideas, so little time.</h5>
+                    </div>
+                    <p>
+                        <a class="button round alert" href="businesses/buziebee">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="medium-4 columns">
+        <div class="f1_container">
+            <div class="f1_card" class="shadow">
+                <div class="profile-card">
+                    <img src="<%= asset_path ('tech.svg')%>">
+                    <div class="profile-info face">
+                        <h4 class="subheader">Tech</h4>
+                        <h5>Digital musings – platforms I created, gadgets I tinkered with, codes I wrote.</h5>
+                    </div>
+                    <p>
+                        <a class="button round alert" href="advocacies/causindy">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="medium-4 columns">
+        <div class="f1_container">
+            <div class="f1_card" class="shadow">
+                <div class="profile-card">
+                    <img src="<%= asset_path ('advocacy.svg')%>">
+                    <div class="profile-info face">
+                        <h4 class="subheader">Advocacy</h4>
+                        <h5>Public policy lobbying and social enterprise projects I am actively supporting.</h5>
+                    </div>
+                    <p>
+                        <a class="button round alert" href="techs/website">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- flip cards END-->
+
+<!-- footer-->
+<footer class="footer bottom">
+    <div class="row">
+        <div class="small-12 medium-6 large-5 columns">
+            <p class="logo-footer">
+                <i class="fi-paw"></i>Surya Setiyaputra</p>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                <a href="#" id="back-about">About</a>
+                <a href="#">Blog</a>
+            </p>
+            <p class="copywrite">Copyright © 2017</p>
+        </div>
+        <div class="small-12 medium-6 large-4 columns">
+            <ul class="contact">
+                <li>
+                    <p>
+                        <i class="fi-marker"></i>Sydney, Australia</p>
+                </li>
+                <li>
+                    <p>
+                        <a href="http://www.twitter.com/ssetiyaputra">
+                            <i class="fi-mail"></i>Say hello!</a>
+                    </p>
+
+                </li>
+            </ul>
+        </div>
+        <div class="small-12 medium-12 large-3 columns">
+            <p class="about">About this website</p>
+            <p class="about subheader">Built on Rails – composed using Zurb Foundation 6.
+            </p>
+            <ul class="inline-list social">
+                <a href="#">
+                    <i class="fi-social-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fi-social-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fi-social-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fi-social-twitter"></i>
+                </a>
+            </ul>
+            <div class="about subheader">
+                <div id="back-button">
+                    <p>Back to top</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer-->
+
+
+
+    <!-- reveal close button... -->
+    <!-- reveal close button END... -->

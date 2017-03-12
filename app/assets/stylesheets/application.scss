@@ -1,0 +1,338 @@
+/*
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ *** Primary color:
+
+    shade 0 = #599341 = rgb( 89,147, 65) = rgba( 89,147, 65,1) = rgb0(0.349,0.576,0.255)
+    shade 1 = #AFD69E = rgb(175,214,158) = rgba(175,214,158,1) = rgb0(0.686,0.839,0.62)
+    shade 2 = #7EB168 = rgb(126,177,104) = rgba(126,177,104,1) = rgb0(0.494,0.694,0.408)
+    shade 3 = #3F7927 = rgb( 63,121, 39) = rgba( 63,121, 39,1) = rgb0(0.247,0.475,0.153)
+    shade 4 = #24570E = rgb( 36, 87, 14) = rgba( 36, 87, 14,1) = rgb0(0.141,0.341,0.055)
+
+ *** Secondary color (1):
+
+    shade 0 = #33596C = rgb( 51, 89,108) = rgba( 51, 89,108,1) = rgb0(0.2,0.349,0.424)
+    shade 1 = #76919E = rgb(118,145,158) = rgba(118,145,158,1) = rgb0(0.463,0.569,0.62)
+    shade 2 = #4F7283 = rgb( 79,114,131) = rgba( 79,114,131,1) = rgb0(0.31,0.447,0.514)
+    shade 3 = #204659 = rgb( 32, 70, 89) = rgba( 32, 70, 89,1) = rgb0(0.125,0.275,0.349)
+    shade 4 = #0D3040 = rgb( 13, 48, 64) = rgba( 13, 48, 64,1) = rgb0(0.051,0.188,0.251)
+
+ *** Secondary color (2):
+
+    shade 0 = #AB7F4C = rgb(171,127, 76) = rgba(171,127, 76,1) = rgb0(0.671,0.498,0.298)
+    shade 1 = #F9DBB8 = rgb(249,219,184) = rgba(249,219,184,1) = rgb0(0.976,0.859,0.722)
+    shade 2 = #CEA779 = rgb(206,167,121) = rgba(206,167,121,1) = rgb0(0.808,0.655,0.475)
+    shade 3 = #8D612D = rgb(141, 97, 45) = rgba(141, 97, 45,1) = rgb0(0.553,0.38,0.176)
+    shade 4 = #663E11 = rgb(102, 62, 17) = rgba(102, 62, 17,1) = rgb0(0.4,0.243,0.067)
+
+ *** Complement color:
+
+    shade 0 = #A04757 = rgb(160, 71, 87) = rgba(160, 71, 87,1) = rgb0(0.627,0.278,0.341)
+    shade 1 = #EAACB7 = rgb(234,172,183) = rgba(234,172,183,1) = rgb0(0.918,0.675,0.718)
+    shade 2 = #C1717F = rgb(193,113,127) = rgba(193,113,127,1) = rgb0(0.757,0.443,0.498)
+    shade 3 = #842B3A = rgb(132, 43, 58) = rgba(132, 43, 58,1) = rgb0(0.518,0.169,0.227)
+    shade 4 = #5F101E = rgb( 95, 16, 30) = rgba( 95, 16, 30,1) = rgb0(0.373,0.063,0.118)
+ */
+/* Small only */
+@media screen and (max-width: 39.9375em) and (orientation: portrait) {
+    body {
+        background-image: image-url("pattern800.png");
+        background-size: contain;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 15.5rem;
+    }
+
+    .logo {
+        margin-top: 0.5rem;
+        padding: 0;
+        margin-top: 5.5rem;
+    }
+
+    #circle-small {
+        padding: 3.25rem 1.5rem 1.5rem 0.75rem;
+    }
+
+    .play-text {
+        display: none;
+    }
+
+    .play-text-rotate-180 {
+        display: none;
+    }
+
+    .play-text-reverse-180 {
+        display: none;
+    }
+
+    .play-text-rotate-180-reverse-B {
+        display: none;
+    }
+
+    .play-text-rotate-180-reverse-D {
+        display: none;
+    }
+
+    .typed-script {
+        display: none;
+    }
+
+    .typed-script-mobile {
+        font-family: monospace;
+        align-self: flex-start;
+        margin: -10rem 0 0;
+        position: absolute;
+        font-weight: bold;
+        font-size: 200%;
+        padding-left: 2rem;
+    }
+
+    .play-text-red {
+        display: none;
+    }
+
+    .card-background {
+        background-color: rgba(141, 97, 45,0.7);
+        padding: 1.5rem 1rem 1rem 1rem;
+    }
+
+    .card-background-white {
+        background-color: rgba(255, 255, 255,0.9);
+        padding: 2rem 2.6rem 1rem 2.5rem;
+        color:black;
+    }
+
+    .bold h1{
+      font-weight: bold;
+    }
+
+    .box-padding {
+        margin-top: 5rem;
+    }
+
+    .footer{
+      padding-top: 4.2rem;
+    }
+
+    .logo-footer{
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+    }
+    .orbit-container{
+      height: 500px;
+    }
+    .profile-card {
+        padding: 2rem;
+        background-color: rgba(249,249,249,0.8);
+
+        h5 {
+            color: black;
+            text-align: center;
+        }
+        p{
+          text-align: center;
+        }
+        img {
+            box-shadow: 2px 2px 5px #888888;
+            //background-color: rgba(249,219,184,0.8);
+            width: 8rem;
+            display: block;
+            margin: 1rem auto;
+            text-align: center;
+            border-radius: 50%;
+        }
+
+        .profile-info {
+            backface-visibility: hidden;
+            padding: 1rem;
+
+            h4 {
+                margin-top: 0;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: black;
+                font-size: 140%;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            .inline-list {
+                text-align: center;
+                margin-bottom: 1rem;
+
+                li {
+                    float: none;
+                    display: inline-block;
+                }
+            }
+        }
+
+        }
+    }
+    #back-button p:hover{
+        color: #599341;
+
+
+}
+@media screen and (max-width: 39.9375em) and (orientation:landscape) {
+    body {
+        background-image: image-url("pattern800.png");
+        background-size: contain;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 10rem;
+    }
+
+    .logo {
+        margin-top: 0.5rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    #circle-small {
+        padding: 2.25rem 1.5rem 1.5rem 0.5rem;
+    }
+
+    .mobile-only {
+        visibility: visible;
+        margin-top: 10rem;
+    }
+
+    .play-text {
+        visibility: hidden;
+    }
+
+    .play-text-rotate-180 {
+        visibility: hidden;
+    }
+
+    .play-text-reverse-180 {
+        visibility: hidden;
+    }
+
+    .play-text-rotate-180-reverse-B {
+        visibility: hidden;
+    }
+
+    .play-text-rotate-180-reverse-D {
+        visibility: hidden;
+    }
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    body {
+        background-image: image-url("pattern1024.png");
+        background-size: contain;
+        background-repeat: repeat;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 10rem;
+    }
+
+    #circle-small {
+        padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+    }
+}
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    body {
+        background-image: image-url("pattern1024.png");
+        background-size: contain;
+        background-repeat: repeat;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 5rem;
+    }
+
+    #circle-small {
+        padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+    }
+
+    .play-text {
+        visibility: hidden;
+    }
+
+    .play-text-rotate-180 {
+        visibility: hidden;
+    }
+
+    .play-text-reverse-180 {
+        visibility: hidden;
+    }
+
+    .play-text-rotate-180-reverse-B {
+        visibility: hidden;
+    }
+
+    .play-text-rotate-180-reverse-D {
+        visibility: hidden;
+    }
+
+    .typed-script {
+        padding: 30rem 5rem 0 0;
+    }
+}
+/* Large and up */
+@media screen and (min-width: 64em) {
+    body {
+        background-image: image-url("pattern1368.png");
+        background-size: contain;
+        background-repeat: repeat;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 5rem;
+    }
+
+    .logo {
+        padding: 3rem;
+    }
+}
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    body {
+        background-image: image-url("pattern1368.png");
+        background-size: contain;
+        background-repeat: repeat;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 5rem;
+    }
+
+    .logo {
+        padding: 3rem;
+    }
+}
+/* XLarge only */
+@media screen and (min-width: 75em) {
+    body {
+        background-image: image-url("pattern1920.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    .box-top {
+        margin-bottom: 3rem;
+    }
+
+    .logo {
+        padding: 3rem;
+    }
+}
