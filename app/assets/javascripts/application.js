@@ -44,16 +44,16 @@ $(function() {
             scrollTop: $("#target1").offset().top
         }, "1500");
         return false
-    })
-})
+    });
+});
 $(function() {
     $("#back-about").click(function() {
         $("html,body").animate({
             scrollTop: $("#target2").offset().top
         }, "1500");
         return false
-    })
-})
+    });
+});
 
 $(function() {
     $("#back-button-medium").click(function() {
@@ -61,5 +61,5 @@ $(function() {
             scrollTop: $("#target1").offset().top
         }, "1500");
         return false
-    })
-})
+    });
+});
