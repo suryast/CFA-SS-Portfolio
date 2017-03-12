@@ -17,27 +17,41 @@ My focus is to build the website mobile first and practising the usage of css to
 
 The website uses the following requirements to work properly:
 
-# README
+* [Rails v.5](https://www.rubyonrails.org) - Ruby on Rails
+* [Foundation](https://foundation.zurb.com) - css framework
+* [Typed.js](http://www.mattboldt.com/demos/typed-js/) - simple javascript for typing effect
+*
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Installation
 
-Things you may want to cover:
+Create new Rails app using -foundation using the foundation-rails gem to make it super easy to use Foundation in your upcoming Rails project. Just add the following to your Gemfile:
 
-* Ruby version
+Install the dependencies and devDependencies and start the server.
 
-* System dependencies
+```sh
+$ gem 'foundation-rails'
+```
+to Gemfile. Run bundle. Install zurb foundation.
+```sh
+$ rails g foundation:install
+```
+Say yes to overwrite application.html.erb. Include:
+```sh
+<%= javascript_include_tag "vendor/modernizr" %>
+```
 
-* Configuration
+### Plugins
 
-* Database creation
+Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
-* Database initialization
+| Plugin | README |
+| ------ | ------ |
+| Twitter plugin| [https://dev.twitter.com/web/javascript] () |
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Todos
 
-* Deployment instructions
+ - Create pages to place different portfolios
 
-* ...
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
