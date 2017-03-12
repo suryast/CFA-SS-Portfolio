@@ -56,7 +56,7 @@ $size: 6rem;
 
 .play-text-red h1 {
     position: absolute;
-    padding: 10rem;
+    padding-bottom: 20rem;
     margin: 3rem 2rem 2rem 5rem;
     font: "Helvetica";
     font-weight: 900;
@@ -152,6 +152,7 @@ $size: 6rem;
     font-size: 250%;
     z-index: 5;
 }
+
 //profile card -- >
 
 .profile-card {
@@ -368,4 +369,8 @@ $size: 6rem;
 
 .orbit-slide {
     color: black;
+}
+
+#back-button p:hover {
+    color: #599341;
 }

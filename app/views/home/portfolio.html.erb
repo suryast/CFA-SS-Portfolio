@@ -85,7 +85,7 @@
 
 <!-- flip cards-->
 <div class="row card-background">
-    <div class="medium-4 columns">
+    <div class="medium-4 columns show-for-small-only">
         <div class="f1_container">
             <div class="f1_card" class="shadow">
                 <div class="profile-card">
@@ -102,7 +102,7 @@
         </div>
     </div>
 
-    <div class="medium-4 columns">
+    <div class="medium-4 columns show-for-small-only">
         <div class="f1_container">
             <div class="f1_card" class="shadow">
                 <div class="profile-card">
@@ -118,7 +118,58 @@
             </div>
         </div>
     </div>
-    <div class="medium-4 columns">
+    <div class="medium-4 columns show-for-small-only">
+        <div class="f1_container">
+            <div class="f1_card" class="shadow">
+                <div class="profile-card">
+                    <img src="<%= asset_path ('advocacy.svg')%>">
+                    <div class="profile-info face">
+                        <h4 class="subheader">Advocacy</h4>
+                        <h5>Public policy lobbying and social enterprise projects I am actively supporting.</h5>
+                    </div>
+                    <p>
+                        <a class="button round alert" href="techs/website">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="large-4 columns show-for-large-up-only">
+        <div class="f1_container">
+            <div class="f1_card" class="shadow">
+                <div class="profile-card">
+                    <img src="<%= asset_path ('business.svg')%>">
+                    <div class="profile-info face">
+                        <h4 class="subheader">Business</h4>
+                        <h5>Some of my ongoing and recent business projects. So many ideas, so little time.</h5>
+                    </div>
+                    <p>
+                        <a class="button round alert" href="businesses/buziebee">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="large-4 columns show-for-large-up">
+        <div class="f1_container">
+            <div class="f1_card" class="shadow">
+                <div class="profile-card">
+                    <img src="<%= asset_path ('tech.svg')%>">
+                    <div class="profile-info face">
+                        <h4 class="subheader">Tech</h4>
+                        <h5>Digital musings – platforms I created, gadgets I tinkered with, codes I wrote.</h5>
+                    </div>
+                    <p>
+                        <a class="button round alert" href="advocacies/causindy">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="large-4 columns show-for-large-up">
         <div class="f1_container">
             <div class="f1_card" class="shadow">
                 <div class="profile-card">
@@ -136,6 +187,15 @@
     </div>
 </div>
 <!-- flip cards END-->
+
+
+<div class="row card-background-white">
+    <div class="small-12 columns bold">
+        <a class="twitter-timeline" data-height="600" href="https://twitter.com/SSetiyaputra">Tweets by SSetiyaputra</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+</div>
 
 <!-- footer-->
 <footer class="footer bottom">
@@ -158,8 +218,8 @@
                 </li>
                 <li>
                     <p>
-                        <a href="http://www.twitter.com/ssetiyaputra">
-                            <i class="fi-mail"></i>Say hello!</a>
+
+                        <i class="fi-mail"></i>hello@me
                     </p>
 
                 </li>
@@ -170,16 +230,16 @@
             <p class="about subheader">Built on Rails – composed using Zurb Foundation 6.
             </p>
             <ul class="inline-list social">
-                <a href="#">
+                <a href="https://www.github.com/suryast">
                     <i class="fi-social-github"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/surya.setiyaputra">
                     <i class="fi-social-linkedin"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/imsuryaa">
                     <i class="fi-social-instagram"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.twitter.com/ssetiyaputra">
                     <i class="fi-social-twitter"></i>
                 </a>
             </ul>
@@ -192,8 +252,4 @@
     </div>
 </footer>
 <!-- footer-->
-
-
-
-    <!-- reveal close button... -->
-    <!-- reveal close button END... -->
+<script>

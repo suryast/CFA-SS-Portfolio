@@ -54,3 +54,12 @@ $(function() {
         return false
     })
 })
+
+$(function() {
+    $("#back-button-medium").click(function() {
+        $("html,body").animate({
+            scrollTop: $("#target1").offset().top
+        }, "1500");
+        return false
+    })
+})
