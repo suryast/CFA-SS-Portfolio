@@ -23,7 +23,7 @@ $(function() {
 });
 $(function() {
     $(".typed-script").typed({
-        strings: ["$^2000login Surya^1000", "$^2000How can I help?"],
+        strings: ["$^2000Surya here^1000", "$^2000How can I help?"],
         typeSpeed: 22,
         startDelay: 500,
         backSpeed: 12,
