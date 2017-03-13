@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/feed'
+
   get 'advocacies/causindy'
 
   get 'advocacies/rumahcerita'
