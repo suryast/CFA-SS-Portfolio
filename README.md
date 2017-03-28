@@ -1,5 +1,7 @@
 # Website Project:: Portfolio
 
+Preview can be found on http://cfa-ss-portfolio.herokuapp.com – this project will be regularly updated and moved to http://setiyaputra.me
+
 This is a website created for CFA Sydney bootcamp – term 1. The brief for this project is the following:
   - Create a website for personal portfolio using skills learnt to date: css, html, a bit of rails
   - Build prototype that can be expanded further to include new portfolio items
@@ -20,7 +22,7 @@ The website uses the following requirements to work properly:
 * [Rails v.5](https://www.rubyonrails.org) - Ruby on Rails
 * [Foundation](https://foundation.zurb.com) - css framework
 * [Typed.js](http://www.mattboldt.com/demos/typed-js/) - simple javascript for typing effect
-*
+
 
 ### Installation
 
@@ -40,18 +42,9 @@ Say yes to overwrite application.html.erb. Include:
 <%= javascript_include_tag "vendor/modernizr" %>
 ```
 
-### Plugins
-
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
-| ------ | ------ |
-| Twitter plugin| [https://dev.twitter.com/web/javascript] () |
-
-
 ### Todos
 
- - Create pages to place different portfolios
+ - Create content cards to show portfolio
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
