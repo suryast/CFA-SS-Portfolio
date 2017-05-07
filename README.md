@@ -12,7 +12,9 @@ This is a website created for CFA Sydney bootcamp – term 1\. The brief for thi
 
 # Approach:
 
-My goal was to build the website mobile first and practising the usage of css to create fully responsive website. To allow this, I chose to use Zurb Foundation's css framework. Foundation can be downloaded [here](https://foundation.zurb.com).
+My goal was to build the website mobile first and practising the usage of css to create fully responsive website. This was the first time I had to do thi.
+
+I had chosen to use Zurb Foundation's css framework. Foundation can be downloaded [here](https://foundation.zurb.com).
 
 I focused on playing around with media size and creating layout that transform as the website gets resized or viewed using different devices – with some interactive typed.js scripts <http://www.mattboldt.com/demos/typed-js/>
 
@@ -23,13 +25,21 @@ I focused on playing around with media size and creating layout that transform a
 
 ## Final Layouts
 
-- ![Mobile](http://res.cloudinary.com/suryast/image/upload/c_scale,w_300/v1494168031/mobile_dlrqzz.png)
+- Mobile version
 
-- ![Tablet](http://res.cloudinary.com/suryast/image/upload/c_scale,w_400/v1494168031/Tablet_lao0z9.png)
+![Mobile](http://res.cloudinary.com/suryast/image/upload/c_scale,w_300/v1494168031/mobile_dlrqzz.png)
 
-- ![Desktop](http://res.cloudinary.com/suryast/image/upload/c_scale,w_400/v1494168030/desktop_hc0org.png)
+- Tablet version
 
-- ![Desktop-big](http://res.cloudinary.com/suryast/image/upload/c_scale,w_400/v1494168031/desktop-big_otafg9.png)
+![Tablet](http://res.cloudinary.com/suryast/image/upload/c_scale,w_400/v1494168031/Tablet_lao0z9.png)
+
+- Desktop version
+
+![Desktop](http://res.cloudinary.com/suryast/image/upload/c_scale,w_400/v1494168030/desktop_hc0org.png)
+
+- Large screen version
+
+![Desktop-big](http://res.cloudinary.com/suryast/image/upload/c_scale,w_400/v1494168031/desktop-big_otafg9.png)
 
 ## Tech
 
