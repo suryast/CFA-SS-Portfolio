@@ -21,7 +21,7 @@ I focused on playing around with media size and creating layout that transform a
 ## Wireframe
 
 - Moodboard <http://www.gomoodboard.com/boards/GSdJ7Fht/share>
-- ![Wireframe](http://res.cloudinary.com/suryast/image/upload/v1494167616/Web_1366_1_pufmsm.png)
+- Wireframe using Adobe XD ![Wireframe](http://res.cloudinary.com/suryast/image/upload/v1494167616/Web_1366_1_pufmsm.png)
 
 ## Final Layouts
 
