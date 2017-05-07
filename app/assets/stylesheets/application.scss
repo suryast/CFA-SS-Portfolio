@@ -36,466 +36,462 @@
     shade 4 = #5F101E = rgb( 95, 16, 30) = rgba( 95, 16, 30,1) = rgb0(0.373,0.063,0.118)
  */
 /* Small only */
+@import "font-awesome";
 @media screen and (max-width: 39.9375em) and (orientation: portrait) {
-    body {
-        background-image: image-url("pattern800.png");
-        background-size: contain;
-        overflow-x: hidden;
+  body {
+    background-image: image-url("pattern800.png");
+    background-size: contain;
+    overflow-x: hidden;
+  }
+
+  .box-top {
+    margin-bottom: 15.5rem;
+  }
+
+  .logo {
+    margin-top: 0.5rem;
+    padding: 0;
+    margin-top: 5.5rem;
+  }
+
+  #circle-small {
+    padding: 3.25rem 1.5rem 1.5rem 0.75rem;
+  }
+
+  .play-text {
+    display: none;
+  }
+
+  .play-text-rotate-180 {
+    display: none;
+  }
+
+  .play-text-reverse-180 {
+    display: none;
+  }
+
+  .play-text-rotate-180-reverse-B {
+    display: none;
+  }
+
+  .play-text-rotate-180-reverse-D {
+    display: none;
+  }
+
+  .typed-script {
+    display: none;
+  }
+
+  .typed-script-mobile {
+    font-family: monospace;
+    align-self: flex-start;
+    margin: -10rem 0 0;
+    position: absolute;
+    font-weight: bold;
+    font-size: 200%;
+    padding-left: 2rem;
+  }
+
+  .play-text-red {
+    display: none;
+  }
+
+  .card-background {
+    background-color: rgba(141, 97, 45,0.7);
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .card-background-white {
+    background-color: rgba(255, 255, 255,0.9);
+    padding: 2rem 2.6rem 1rem 2.5rem;
+    color: black;
+  }
+
+  .bold h1 {
+    font-weight: bold;
+  }
+
+  .box-padding {
+    margin-top: 5rem;
+  }
+
+  .footer {
+    padding-top: 4.2rem;
+  }
+
+  .logo-footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .orbit-container {
+    height: 500px;
+  }
+
+  .profile-card {
+    padding: 2rem;
+    background-color: rgba(249,249,249,0.8);
+
+    h5 {
+      color: black;
+      text-align: center;
     }
 
-    .box-top {
-        margin-bottom: 15.5rem;
+    p {
+      text-align: center;
     }
 
-    .logo {
-        margin-top: 0.5rem;
-        padding: 0;
-        margin-top: 5.5rem;
+    img {
+      box-shadow: 2px 2px 5px #888888;
+      //background-color: rgba(249,219,184,0.8);
+      width: 8rem;
+      display: block;
+      margin: 1rem auto;
+      text-align: center;
+      border-radius: 50%;
     }
 
-    #circle-small {
-        padding: 3.25rem 1.5rem 1.5rem 0.75rem;
-    }
+    .profile-info {
+      backface-visibility: hidden;
+      padding: 1rem;
 
-    .play-text {
-        display: none;
-    }
-
-    .play-text-rotate-180 {
-        display: none;
-    }
-
-    .play-text-reverse-180 {
-        display: none;
-    }
-
-    .play-text-rotate-180-reverse-B {
-        display: none;
-    }
-
-    .play-text-rotate-180-reverse-D {
-        display: none;
-    }
-
-    .typed-script {
-        display: none;
-    }
-
-    .typed-script-mobile {
-        font-family: monospace;
-        align-self: flex-start;
-        margin: -10rem 0 0;
-        position: absolute;
+      h4 {
+        margin-top: 0;
+        text-align: center;
+        text-transform: uppercase;
         font-weight: bold;
-        font-size: 200%;
-        padding-left: 2rem;
-    }
-
-    .play-text-red {
-        display: none;
-    }
-
-    .card-background {
-        background-color: rgba(141, 97, 45,0.7);
-        padding: 1.5rem 1rem 1rem;
-    }
-
-    .card-background-white {
-        background-color: rgba(255, 255, 255,0.9);
-        padding: 2rem 2.6rem 1rem 2.5rem;
         color: black;
-    }
+        font-size: 140%;
+      }
 
-    .bold h1 {
-        font-weight: bold;
-    }
+      p {
+        text-align: left;
+      }
 
-    .box-padding {
-        margin-top: 5rem;
-    }
+      .inline-list {
+        text-align: center;
+        margin-bottom: 1rem;
 
-    .footer {
-        padding-top: 4.2rem;
-    }
-
-    .logo-footer {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-    }
-
-    .orbit-container {
-        height: 500px;
-    }
-
-    .profile-card {
-        padding: 2rem;
-        background-color: rgba(249,249,249,0.8);
-
-        h5 {
-            color: black;
-            text-align: center;
+        li {
+          float: none;
+          display: inline-block;
         }
-
-        p {
-            text-align: center;
-        }
-
-        img {
-            box-shadow: 2px 2px 5px #888888;
-            //background-color: rgba(249,219,184,0.8);
-            width: 8rem;
-            display: block;
-            margin: 1rem auto;
-            text-align: center;
-            border-radius: 50%;
-        }
-
-        .profile-info {
-            backface-visibility: hidden;
-            padding: 1rem;
-
-            h4 {
-                margin-top: 0;
-                text-align: center;
-                text-transform: uppercase;
-                font-weight: bold;
-                color: black;
-                font-size: 140%;
-            }
-
-            p {
-                text-align: left;
-            }
-
-            .inline-list {
-                text-align: center;
-                margin-bottom: 1rem;
-
-                li {
-                    float: none;
-                    display: inline-block;
-                }
-            }
-        }
+      }
     }
+  }
 }
 /* Medium and up */
 @media screen and (min-width: 40em) {
-    body {
-        background-image: image-url("pattern1024.png");
-        background-size: contain;
-        background-repeat: repeat;
-        overflow-x: hidden;
+  body {
+    background-image: image-url("pattern1024.png");
+    background-size: contain;
+    background-repeat: repeat;
+    overflow-x: hidden;
+  }
+
+  .box-top {
+    padding-bottom: 5rem;
+    margin-bottom: 10rem;
+  }
+
+  #circle-small {
+    padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+  }
+
+  .card-background {
+    background-color: rgba( 32, 70, 89,0.7);
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .card-background-white {
+    background-color: rgba(255, 255, 255,1);
+    padding: 2rem 2.6rem 1rem 2.5rem;
+    color: black;
+  }
+
+  .bold h1 {
+    font-weight: bold;
+  }
+
+  .box-padding {
+    margin-top: 5rem;
+  }
+
+  .footer {
+    padding-top: 2rem;
+  }
+
+  .logo-footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .orbit-container {
+    height: 500px;
+  }
+
+  .profile-card {
+    padding: 2rem;
+    background-color: rgba(249,249,249,0.8);
+
+    h5 {
+      color: black;
+      text-align: center;
     }
 
-    .box-top {
-        padding-bottom: 5rem;
-        margin-bottom: 10rem;
+    p {
+      text-align: center;
     }
 
-    #circle-small {
-        padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+    img {
+      box-shadow: 2px 2px 5px #888888;
+      //background-color: rgba(249,219,184,0.8);
+      width: 8rem;
+      display: block;
+      margin: 1rem auto;
+      text-align: center;
+      border-radius: 50%;
     }
 
-    .card-background {
-        background-color: rgba( 32, 70, 89,0.7);
-        padding: 1.5rem 1rem 1rem;
-    }
+    .profile-info {
+      backface-visibility: hidden;
+      padding: 1rem;
 
-    .card-background-white {
-        background-color: rgba(255, 255, 255,1);
-        padding: 2rem 2.6rem 1rem 2.5rem;
-        color: black;
-    }
-
-    .bold h1 {
+      h4 {
+        margin-top: 0;
+        text-align: center;
+        text-transform: uppercase;
         font-weight: bold;
-    }
-
-    .box-padding {
-        margin-top: 5rem;
-    }
-
-    .footer {
-        padding-top: 2rem;
-    }
-
-    .logo-footer {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-    }
-
-    .orbit-container {
-        height: 500px;
-    }
-
-    .profile-card {
-        padding: 2rem;
-        background-color: rgba(249,249,249,0.8);
-
-        h5 {
-            color: black;
-            text-align: center;
-        }
-
-        p {
-            text-align: center;
-        }
-
-        img {
-            box-shadow: 2px 2px 5px #888888;
-            //background-color: rgba(249,219,184,0.8);
-            width: 8rem;
-            display: block;
-            margin: 1rem auto;
-            text-align: center;
-            border-radius: 50%;
-        }
-
-        .profile-info {
-            backface-visibility: hidden;
-            padding: 1rem;
-
-            h4 {
-                margin-top: 0;
-                text-align: center;
-                text-transform: uppercase;
-                font-weight: bold;
-                color: black;
-                font-size: 140%;
-            }
-
-            p {
-                text-align: left;
-            }
-
-            .inline-list {
-                text-align: center;
-                margin-bottom: 1rem;
-
-                li {
-                    float: none;
-                    display: inline-block;
-                }
-            }
-        }
-    }
-
-    #back-button-medium p:hover {
-        color: #599341;
-    }
-
-
-
-    .contact {
-        list-style-type: none;
-        padding-top:7rem;
-        text-align: left;
-        color: #fff;
+        color: black;
+        font-size: 140%;
       }
 
+      p {
+        text-align: left;
+      }
+
+      .inline-list {
+        text-align: center;
+        margin-bottom: 1rem;
+
+        li {
+          float: none;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  #back-button-medium p:hover {
+    color: #599341;
+  }
+
+  .contact {
+    list-style-type: none;
+    padding-top: 7rem;
+    text-align: left;
+    color: #fff;
+  }
 }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   body {
-      background-image: image-url("pattern1024.png");
-      background-size: contain;
-      background-repeat: repeat;
-      overflow-x: hidden;
+    background-image: image-url("pattern1024.png");
+    background-size: contain;
+    background-repeat: repeat;
+    overflow-x: hidden;
   }
 
   .box-top {
-      padding-bottom: 5rem;
-      margin-bottom: 10rem;
+    padding-bottom: 5rem;
+    margin-bottom: 10rem;
   }
-    #circle-small {
-        padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+
+  #circle-small {
+    padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+  }
+
+  .play-text {
+    visibility: hidden;
+  }
+
+  .play-text-rotate-180 {
+    visibility: hidden;
+  }
+
+  .play-text-reverse-180 {
+    visibility: hidden;
+  }
+
+  .play-text-rotate-180-reverse-B {
+    visibility: hidden;
+  }
+
+  .play-text-rotate-180-reverse-D {
+    visibility: hidden;
+  }
+
+  .typed-script {
+    padding: 30rem 5rem 0 0;
+  }
+
+  .card-background {
+    background-color: rgba( 32, 70, 89,0.7);
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .card-background-white {
+    background-color: rgba(255, 255, 255,1);
+    padding: 2rem 2.6rem 1rem 2.5rem;
+    color: black;
+  }
+
+  .bold h1 {
+    font-weight: bold;
+  }
+
+  .box-padding {
+    margin-top: 5rem;
+  }
+
+  .footer {
+    padding-top: 2rem;
+  }
+
+  .logo-footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .orbit-container {
+    height: 500px;
+  }
+
+  .profile-card {
+    padding: 2rem;
+    background-color: rgba(249,249,249,0.8);
+
+    h5 {
+      color: black;
+      text-align: center;
     }
 
-    .play-text {
-        visibility: hidden;
+    p {
+      text-align: center;
     }
 
-    .play-text-rotate-180 {
-        visibility: hidden;
+    img {
+      box-shadow: 2px 2px 5px #888888;
+      //background-color: rgba(249,219,184,0.8);
+      width: 8rem;
+      display: block;
+      margin: 1rem auto;
+      text-align: center;
+      border-radius: 50%;
     }
 
-    .play-text-reverse-180 {
-        visibility: hidden;
-    }
+    .profile-info {
+      backface-visibility: hidden;
+      padding: 1rem;
 
-    .play-text-rotate-180-reverse-B {
-        visibility: hidden;
-    }
-
-    .play-text-rotate-180-reverse-D {
-        visibility: hidden;
-    }
-
-    .typed-script {
-        padding: 30rem 5rem 0 0;
-    }
-    .card-background {
-        background-color: rgba( 32, 70, 89,0.7);
-        padding: 1.5rem 1rem 1rem;
-    }
-
-    .card-background-white {
-        background-color: rgba(255, 255, 255,1);
-        padding: 2rem 2.6rem 1rem 2.5rem;
-        color: black;
-    }
-
-    .bold h1 {
+      h4 {
+        margin-top: 0;
+        text-align: center;
+        text-transform: uppercase;
         font-weight: bold;
-    }
-
-    .box-padding {
-        margin-top: 5rem;
-    }
-
-    .footer {
-        padding-top: 2rem;
-    }
-
-    .logo-footer {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-    }
-
-    .orbit-container {
-        height: 500px;
-    }
-
-    .profile-card {
-        padding: 2rem;
-        background-color: rgba(249,249,249,0.8);
-
-        h5 {
-            color: black;
-            text-align: center;
-        }
-
-        p {
-            text-align: center;
-        }
-
-        img {
-            box-shadow: 2px 2px 5px #888888;
-            //background-color: rgba(249,219,184,0.8);
-            width: 8rem;
-            display: block;
-            margin: 1rem auto;
-            text-align: center;
-            border-radius: 50%;
-        }
-
-        .profile-info {
-            backface-visibility: hidden;
-            padding: 1rem;
-
-            h4 {
-                margin-top: 0;
-                text-align: center;
-                text-transform: uppercase;
-                font-weight: bold;
-                color: black;
-                font-size: 140%;
-            }
-
-            p {
-                text-align: left;
-            }
-
-            .inline-list {
-                text-align: center;
-                margin-bottom: 1rem;
-
-                li {
-                    float: none;
-                    display: inline-block;
-                }
-            }
-        }
-    }
-
-    #back-button-medium p:hover {
-        color: #599341;
-    }
-
-
-
-    .contact {
-        list-style-type: none;
-        padding-top:7rem;
-        text-align: left;
-        color: #fff;
+        color: black;
+        font-size: 140%;
       }
+
+      p {
+        text-align: left;
+      }
+
+      .inline-list {
+        text-align: center;
+        margin-bottom: 1rem;
+
+        li {
+          float: none;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  #back-button-medium p:hover {
+    color: #599341;
+  }
+
+  .contact {
+    list-style-type: none;
+    padding-top: 7rem;
+    text-align: left;
+    color: #fff;
+  }
 }
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
-    body {
-        background-image: image-url("pattern1368.png");
-        background-size: contain;
-        background-repeat: repeat;
-        overflow-x: hidden;
-    }
+  body {
+    background-image: image-url("pattern1368.png");
+    background-size: contain;
+    background-repeat: repeat;
+    overflow-x: hidden;
+  }
 
-    .box-top {
-        margin-bottom: 5rem;
-    }
+  .box-top {
+    margin-bottom: 5rem;
+  }
 
-    .logo {
-        padding: 3rem;
-    }
-    .card-background {
-        background-color: rgba( 63,121, 39,0.7);
-        padding: 1.5rem 1rem 1rem;
-    }
+  .logo {
+    padding: 3rem;
+  }
 
-    .card-background-white {
-        background-color: rgba(255, 255, 255,0.9);
-        padding: 2rem 2.6rem 1rem 2.5rem;
-        color: black;
-    }
+  .card-background {
+    background-color: rgba( 63,121, 39,0.7);
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .card-background-white {
+    background-color: rgba(255, 255, 255,0.9);
+    padding: 2rem 2.6rem 1rem 2.5rem;
+    color: black;
+  }
 }
 /* XLarge only */
 @media screen and (min-width: 75em) {
-    body {
-        background-image: image-url("pattern1920.png");
-        background-size: contain;
-        background-repeat: repeat;
-        overflow-x: hidden;
-        padding-bottom:5rem;
-    }
-    .box-top {
-        padding-bottom: 5rem;
+  body {
+    background-image: image-url("pattern1920.png");
+    background-size: contain;
+    background-repeat: repeat;
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+  }
 
-    }
+  .box-top {
+    padding-bottom: 5rem;
+  }
 
-    #circle-small {
-        padding: 2.25rem 1.5rem 1.5rem 0.75rem;
-    }
+  #circle-small {
+    padding: 2.25rem 1.5rem 1.5rem 0.75rem;
+  }
 
+  .card-background {
+    background-color: rgba( 63,121, 39,0.7);
+    padding: 1.5rem 1rem 1rem;
+  }
 
-        .card-background {
-            background-color: rgba( 63,121, 39,0.7);
-            padding: 1.5rem 1rem 1rem;
-        }
+  .card-background-white {
+    background-color: rgba(255, 255, 255,0.9);
+    padding: 2rem 2.6rem 1rem 2.5rem;
+    color: black;
+  }
 
-        .card-background-white {
-            background-color: rgba(255, 255, 255,0.9);
-            padding: 2rem 2.6rem 1rem 2.5rem;
-            color: black;
-        }
-
-
-    #back-button p:hover {
-        color: #599341;
-    }
+  #back-button p:hover {
+    color: #599341;
+  }
 }
 
-
 #back-button p:hover {
-    color: #599341;
+  color: #599341;
 }

@@ -1,0 +1,32 @@
+{:uriI" file://app/assets/javascripts/bower_components/instafeed.js/bower.json?type=application/json&id=738f434c0db08b1e69bd2e4383b87efcdf91629704c97dc03abdbd8c0b803067:ET:load_pathI"app/assets/javascripts;T:filenameI"Dapp/assets/javascripts/bower_components/instafeed.js/bower.json;T:	nameI"(bower_components/instafeed.js/bower;T:logical_pathI"-bower_components/instafeed.js/bower.json;T:content_typeI"application/json;T:sourceI"	{
+  "name": "instafeed.js",
+  "main": "instafeed.js",
+  "description": "A simple Instagram javascript plugin.",
+  "version": "1.4.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stevenschobert/instafeed.js.git"
+  },
+  "homepage": "http://instafeedjs.com/",
+  "authors": [
+    "Steven Schobert <spschobert@gmail.com>"
+  ],
+  "keywords": [
+    "javascript",
+    "instagram"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "src",
+    "test",
+    "*.yml",
+    "package.json",
+    "Makefile"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Rfile-digest://app/assets/javascripts/bower_components/instafeed.js/bower.json;TTF:charsetI"
+utf-8;F:digest"%ÍÜ«˜CÊ‚Gù­PÔv/f?ãÏê#ï™”'’ÃèË$È:lengthi	:dependencies_digest"%\¡¾l¼Z Â;\Ì¨ÇÏN€l	Uíän´ã3E‚:idI"E738f434c0db08b1e69bd2e4383b87efcdf91629704c97dc03abdbd8c0b803067;F:
+mtimel+vˆAV
